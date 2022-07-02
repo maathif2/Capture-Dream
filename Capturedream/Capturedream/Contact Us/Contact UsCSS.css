@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*==========================navBar==========================*/
+
+
+nav{
+    background: rgb(46, 45, 41);
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    margin-top: px;
+    list-style: none;
+    text-decoration: none;
+    z-index: 10000;
+}
+
+nav ul{
+    padding-left: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+nav .navigation-R{
+    float: right;
+    margin-top: -55px;
+    padding-right: 30px;
+}
+
+nav ul li a{
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    padding:10px 16px;
+}
+
+nav ul li a.active,nav ul li a:hover{
+    background-color: rgb(92, 90, 86);
+}
+
+/*==========================navBar==========================*/
+
+
+/*==========================logo_searchBar==========================*/
+
+.logo_searchBar{
+    width: 100%;
+    padding-top:40px ;
+}
+
+.logo {
+    height: 100px;
+    margin: 10px 20px;
+}
+
+.search-container {
+    float: right;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+
+.search-container input[type="text"] {
+    outline: none;
+}
+
+.search {
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    opacity: 50%;
+}
+
+.search:hover {
+    opacity: 100%;
+}
+
+/*==========================logo_searchBar==========================*/
+
+
+/*==========================Contact==========================*/
+
+.ContactUsContainer{
+    width: 100%;
+    height: 666px;
+    background-color: rgb(223, 219, 219);
+    margin-top: -112px;
+}
+
+.contactUs{
+    width: 90%;
+    height: 540px;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.mapContainer{
+    width: 53%;
+    height:500px;
+    background-color: rgb(241, 241, 239);
+    border-radius: 20px;
+}
+
+.map{
+    width: 100%;
+    height:300px;
+    border-radius: 20px;
+}
+
+.location{
+    display: flex;
+    width: 95%;
+    height: 60px;
+}
+.location p{
+    margin-top: 27px;
+}
+
+.Mail{
+    display: flex;
+    width: 95%;
+    height: 60px;
+}
+.Mail p{
+    margin-top: 21px;
+}
+
+.phone{
+    display: flex;
+    width: 95%;
+    height: 60px;
+}
+
+.phone p{
+    margin-top: 25px;
+}
+
+
+
+
+.contactOption p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.contactOption p a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.contactOption .icon1{
+    font-size: 40px !important;
+    margin: 20px 20px 0 0;
+    margin-left: 25px;
+    transition: .6s;
+}
+
+.contactOption .icon1:hover{
+    transform: translate(0, -10px);
+    font-size: 50px !important;
+    color: rgb(255, 166, 0);
+}
+
+.contactOption .icon2{
+    font-size: 35px !important;
+    margin: 20px 20px 0 0;
+    margin-left: 20px;
+    transition: .6s;
+}
+.contactOption .icon2:hover{
+    transform: translate(0, -10px);
+    font-size: 50px !important;
+    color: rgb(255, 166, 0);
+}
+
+.contactOption .icon3{
+    font-size: 40px !important;
+    margin: 20px 20px 0 0;
+    margin-left: 20px;
+    transition: .6s;
+}
+.contactOption .icon3:hover{
+    color: rgb(255, 166, 0);
+    transform: translate(0, -10px);
+    font-size: 50px !important;
+}
+
+.mail{
+    width: 45%;
+    height:500px;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 239);
+    float: right;
+    padding: 30px 30px 30px 30px;
+    margin-top: -500px;
+}
+
+.mail h2{
+    letter-spacing: 1px;
+}
+
+.mail .emailbox{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mail .txtarea{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+.mail .btn{
+    margin-top: 20px;
+    height:45px;
+    width: 150px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(54, 116, 248);
+    border: none;
+    border-radius: 5px;
+}
+
+.mail .btn:hover{
+    background-color: rgb(32, 83, 194);
+}
+
+
+
+
+
+
+/*==========================Contact==========================*/
+
+
+/*==========================footer==========================*/
+
+.footer {
+    background-color: rgb(46, 45, 41);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.grid-item h3 {
+    padding-top: 10px;
+}
+
+.grid-item li {
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.grid-item li a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.grid-container ul li :hover {
+    color: rgb(255, 166, 0);
+}
+
+.SocialMedia li {
+    list-style: none;
+}
+
+.FB {
+    font-size: 30px !important;
+    color: aliceblue;
+    transition: .6s;
+}
+
+.FB:hover {
+    color: rgb(102, 148, 247);
+    transform: translate(-10px, 0);
+}
+
+.TWT {
+    font-size: 30px !important;
+    color: aliceblue;
+    transition: .6s;
+}
+
+.TWT:hover {
+    color: rgb(134, 171, 250);
+    transform: translate(-10px, 0);
+}
+
+.INST {
+    font-size: 30px !important;
+    color: aliceblue;
+    transition: .6s;
+}
+
+.INST:hover {
+    background-image: linear-gradient(50deg, #ffb006, #ff1919, #5d27c0);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    transform: translate(-10px, 0);
+}
+
+.LNKDN {
+    font-size: 30px !important;
+    color: aliceblue;
+    transition: .6s;
+}
+
+.LNKDN:hover {
+    color: rgb(31, 71, 156);
+    transform: translate(-10px, 0);
+}
+
+.PNTRST {
+    font-size: 30px !important;
+    color: aliceblue;
+    transition: .6s;
+}
+
+.PNTRST:hover {
+    color: rgb(255, 56, 149);
+    transform: translate(-10px, 0);
+}
+
+.footer-col-1 li {
+    padding: 5px;
+}
+
+hr {
+    width: 95%;
+    background-color: #fff;
+    opacity: 30%;
+}
+
+.footer p {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 30%;
+}
+
+/*==========================footer==========================*/
+
+
+/*==========================responsive area==========================*/
+
+
+@media (max-width:1070px){
+    .contactOption p{
+        font-size: 15px;
+        padding: 0;
+    }
+    .contactOption p a{
+        font-size: 15px;
+    }
+    
+    .contactOption .icon1{
+        font-size: 30px !important;
+        margin: 20px 20px 0 0;
+        margin-left: 25px;
+    }
+    
+    .contactOption .icon2{
+        font-size: 25px !important;
+        margin: 20px 20px 0 0;
+        margin-left: 20px;
+    }
+
+    .contactOption .icon3{
+        font-size: 30px !important;
+        margin: 20px 20px 0 0;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:832px){
+    .contactOption p{
+        font-size: 12px;
+        padding: 0;
+    }
+    .contactOption p a{
+        font-size: 12px;
+    }
+    
+    
+    
+
+
+@media (max-width:786px) {
+
+
+    .navigationL{
+        display: none;
+    }
+    .navigation-R{
+        padding-top: 5px;
+    }
+    
+
+    .menuToggle
+    {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../Home/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 5px 30px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .menuToggle.active{
+        background: url(../Home/close.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .navigationL.active{
+        width: 100%;
+        height:100%;
+        position: fixed;
+        top:50px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgb(68, 68, 70);
+    }
+
+    .navigationL li a{
+        font-size: 25px;
+    }
+
+    .mail{
+        padding: 30px 9px 30px 9px;
+        
+    }
+
+
+}
+
+@media (max-width:686px) {
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    .location p{
+        margin-top: 18px;
+    }
+
+    
+
+}
+
+    
+
+@media (max-width:598px) {
+    
+    .search {
+        width: 222px;
+    }
+    .logo {
+        width: 186px;
+        margin: 10px 0;
+        height: 91px;
+    }
+
+
+    .grid-item h3 {
+        padding-top: 10px;
+        font-size: 15PX;
+    }
+
+    .grid-item li a{
+        font-size: 15px;
+    }
+
+    .footer-col-1 li {
+        padding: 5px 0;
+    }
+
+    .FB {
+        font-size: 25px !important;
+    }
+    
+    .TWT {
+        font-size: 25px !important;
+    }
+    .INST {
+        font-size: 25px !important;
+    }
+    .LNKDN {
+        font-size: 25px !important;
+    }
+    .PNTRST {
+        font-size: 25px !important;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width:570px){
+ 
+    .contactOption .icon1{
+        font-size: 30px !important;
+        margin-top: 3px;
+        
+    }
+    .contactOption .icon2{
+        font-size: 25px !important;
+        margin-top: 3px;
+        
+    }
+    .contactOption .icon3{
+        font-size: 30px !important;
+        margin: 20px 20px 0 0;
+        margin-left: 20px;
+        transition: .6s;
+    }
+ 
+    .location{
+        display: block;
+        width: 95%;
+        height: 60px;
+    }
+    .location p{
+        margin-top: -0px;
+        margin-left: 5px;
+        font-size: 10px;
+        
+    }
+    
+    .Mail{
+        display: block;
+        width: 95%;
+        height: 60px;
+    }
+    .Mail p{
+        margin-top: -0px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .Mail p a{
+        font-size: 10px;
+    }
+    
+    .phone{
+        display: block;
+        width: 95%;
+        height: 60px;
+        
+    }
+    }
+    .phone p{
+        margin-top: -0px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+
+    .mail .btn{
+        height:35px;
+        width: 100px;
+    }
+
+    
+    
+}
+
+
+
+@media (max-width:471px) {
+    
+    .search {
+        width: 200px;
+    }
+
+    .Mail{
+        margin-top: 10px;
+    }
+    .phone{
+        margin-top: -10px;
+    }
+
+    
+}
+
+@media (max-width:439px) {
+
+
+    .contactUs{
+        top: 17%; 
+    }
+
+    .menuToggle{
+        background-size: 25px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    .menuToggle.active{
+        background-size: 25px;
+        margin-top: 8px;
+    }
+
+    .navigation-R{
+        padding-top: 1.5px;
+    }
+
+    .search {
+        width: 150px;
+        font-size: 13px;
+        height: 30px;
+        
+    }
+
+    .search-container {
+        margin-top: 35px;
+        margin-right: 15px;
+    }
+
+    .logo {
+        width: 100px;
+        margin: 22px 0 0 0;
+        height: 55px;
+        
+    }
+
+
+    .grid-item h3 {
+        padding-top: 10px;
+        font-size: 13PX;
+    }
+
+    .grid-item li a{
+        font-size: 13px;
+    }
+
+    .footer-col-1 li {
+        padding: 5px 0;
+    }
+    .footer-col-2 li{
+        padding: 5px 0;
+    }
+
+
+    .FB {
+        font-size: 20px !important;
+    }
+    .TWT {
+        font-size: 20px !important;
+    }
+    .INST {
+        font-size: 20px !important;
+    }
+    .LNKDN {
+        font-size: 20px !important;
+    }
+    .PNTRST {
+        font-size: 20px !important;
+    }
+
+    .navigationL li a{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:380px){
+    nav .navigation-R {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    nav .navigation-R li a{
+        
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+/*==========================responsive area==========================*/
+    
